@@ -79,12 +79,12 @@ export function HelpButton() {
           </DialogHeader>
 
           <div className="overflow-y-auto flex-1 -mx-6 px-6 space-y-4 py-4">
-            <div className="rounded-lg bg-gradient-to-br from-teal-50 to-cyan-50 border border-teal-200 p-5 space-y-3">
-              <h3 className="font-semibold text-teal-900 flex items-center gap-2">
+            <div className="rounded-lg bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-950/40 dark:to-cyan-950/40 border border-teal-200 dark:border-teal-800 p-5 space-y-3">
+              <h3 className="font-semibold text-teal-900 dark:text-teal-100 flex items-center gap-2">
                 <Sparkles className="h-4 w-4" />
                 Hiring That Fits Your Culture
               </h3>
-              <p className="text-sm text-teal-800">
+              <p className="text-sm text-teal-800 dark:text-teal-200">
                 The Hiring Oracle helps you build positions that align with your
                 brand values, generate questions that reveal character, and
                 create onboarding plans that set new hires up for success.
